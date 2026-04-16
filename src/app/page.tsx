@@ -1,10 +1,27 @@
+import { Navbar } from "@/components/navbar";
+import { Hero } from "@/components/hero";
+import { Statement } from "@/components/statement";
+import { HowItWorks } from "@/components/how-it-works";
+import { Features } from "@/components/features";
+import { Stats } from "@/components/stats";
+import { PrivacySection } from "@/components/privacy-section";
+import { FooterCTA } from "@/components/footer-cta";
+import { Footer } from "@/components/footer";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center">
-      <h1 className="text-5xl font-bold gradient-text">Align</h1>
-      <p className="mt-4 text-lg" style={{ color: "var(--text-secondary)" }}>
-        Compete on screen time. Coming soon.
-      </p>
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <Statement />
+        <HowItWorks />
+        <Features />
+        <Stats />
+        <PrivacySection />
+        <FooterCTA />
+      </main>
+      <Footer />
+    </>
   );
 }
