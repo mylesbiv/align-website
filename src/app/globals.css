@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+:root {
+  /* Backgrounds */
+  --bg-primary: #08090A;
+  --bg-secondary: #0E1011;
+  --bg-tertiary: #141516;
+  --bg-card: rgba(255, 255, 255, 0.03);
+
+  /* Text */
+  --text-primary: #FFFFFF;
+  --text-secondary: #A1A1AA;
+  --text-muted: #71717A;
+
+  /* Accent — purple/pink, used sparingly */
+  --accent-purple: #8B5CF6;
+  --accent-pink: #EC4899;
+  --accent-gradient: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%);
+
+  /* Borders */
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-hover: rgba(255, 255, 255, 0.12);
+
+  /* Glow */
+  --glow-purple: rgba(139, 92, 246, 0.15);
+  --glow-pink: rgba(236, 72, 153, 0.1);
+
+  /* Shadows */
+  --shadow-card: 0 0 0 1px rgba(255, 255, 255, 0.05), 0 20px 40px -10px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 80px 20px rgba(139, 92, 246, 0.12), 0 0 160px 40px rgba(236, 72, 153, 0.06);
+  --shadow-button: 0 4px 20px -4px rgba(139, 92, 246, 0.4);
+}
+
+@theme inline {
+  --color-background: var(--bg-primary);
+  --color-foreground: var(--text-primary);
+  --font-sans: var(--font-manrope);
+}
+
+/* Gradient text utility */
+.gradient-text {
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(14, 16, 17, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-subtle);
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-manrope), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Selection color */
+::selection {
+  background: rgba(139, 92, 246, 0.3);
+  color: white;
+}
