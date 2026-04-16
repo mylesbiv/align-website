@@ -91,10 +91,10 @@ export default function PrivacyPolicy() {
             <p>
               If you have questions about this privacy policy, contact us at:{" "}
               <a
-                href="mailto:mylesbivolcic@gmail.com"
+                href="mailto:support@myalign.app"
                 className="underline hover:text-white transition-colors"
               >
-                mylesbivolcic@gmail.com
+                support@myalign.app
               </a>
             </p>
           </section>
