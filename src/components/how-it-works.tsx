@@ -8,26 +8,26 @@ const steps = [
     icon: Users,
     title: "Create a Group",
     description: "Invite up to 3 friends. Your squad, your rules.",
-    accent: "#8B5CF6",
+    accent: "#F59E0B",
   },
   {
     icon: Swords,
     title: "Set a Challenge",
     description: "Pick the duration. 10 minutes or 2 hours — you decide.",
-    accent: "#EC4899",
+    accent: "#EA580C",
   },
   {
     icon: ShieldBan,
     title: "Apps Get Blocked",
     description:
       "Distracting apps are locked. No workarounds, no escape hatch.",
-    accent: "#8B5CF6",
+    accent: "#F59E0B",
   },
   {
     icon: Trophy,
     title: "Compete & Win",
     description: "Lowest screen time wins. Real-time leaderboard, live results.",
-    accent: "#EC4899",
+    accent: "#EA580C",
   },
 ];
 

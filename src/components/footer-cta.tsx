@@ -47,8 +47,8 @@ export function FooterCTA() {
             rel="noopener noreferrer"
             className="inline-flex items-center px-10 py-4 text-lg font-medium text-black rounded-full transition-all duration-200 hover:scale-105 hover:brightness-110"
             style={{
-              background: "linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%)",
-              boxShadow: "0 4px 24px -4px rgba(139, 92, 246, 0.4)",
+              background: "linear-gradient(135deg, #F59E0B 0%, #EA580C 100%)",
+              boxShadow: "0 4px 24px -4px rgba(245, 158, 11, 0.4)",
             }}
           >
             Download for iOS

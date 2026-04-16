@@ -58,7 +58,7 @@ export function Navbar() {
               className="inline-flex items-center px-5 py-2 text-sm font-medium text-black rounded-full transition-all duration-200 hover:scale-105"
               style={{
                 background:
-                  "linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%)",
+                  "linear-gradient(135deg, #F59E0B 0%, #EA580C 100%)",
               }}
             >
               Download App
@@ -106,7 +106,7 @@ export function Navbar() {
                 className="inline-flex items-center justify-center px-6 py-3 mt-4 text-base font-medium text-black rounded-full"
                 style={{
                   background:
-                    "linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%)",
+                    "linear-gradient(135deg, #F59E0B 0%, #EA580C 100%)",
                 }}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}

@@ -8,7 +8,7 @@ export function Hero() {
     <section className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-24 pb-16 overflow-hidden">
       {/* Background glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] pointer-events-none">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(139,92,246,0.12)_0%,rgba(236,72,153,0.06)_40%,transparent_70%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(245,158,11,0.12)_0%,rgba(234,88,12,0.06)_40%,transparent_70%)]" />
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto text-center">
@@ -61,8 +61,8 @@ export function Hero() {
             rel="noopener noreferrer"
             className="inline-flex items-center px-8 py-3.5 text-base font-medium text-black rounded-full transition-all duration-200 hover:scale-105 hover:brightness-110"
             style={{
-              background: "linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%)",
-              boxShadow: "0 4px 24px -4px rgba(139, 92, 246, 0.4)",
+              background: "linear-gradient(135deg, #F59E0B 0%, #EA580C 100%)",
+              boxShadow: "0 4px 24px -4px rgba(245, 158, 11, 0.4)",
             }}
           >
             Download for iOS
@@ -89,7 +89,7 @@ export function Hero() {
               background:
                 "linear-gradient(180deg, #141516 0%, #0E1011 100%)",
               boxShadow:
-                "0 0 80px 20px rgba(139, 92, 246, 0.08), 0 0 160px 40px rgba(236, 72, 153, 0.04)",
+                "0 0 80px 20px rgba(245, 158, 11, 0.08), 0 0 160px 40px rgba(234, 88, 12, 0.04)",
             }}
           >
             {/* Notch */}
@@ -103,21 +103,21 @@ export function Hero() {
               {/* Mini stats */}
               <div className="w-full space-y-3">
                 <div className="flex items-center gap-3 px-4 py-3 rounded-xl bg-white/[0.03] border border-white/[0.06]">
-                  <Trophy size={16} className="text-[#8B5CF6]" />
+                  <Trophy size={16} className="text-[#F59E0B]" />
                   <span className="text-sm text-[#A1A1AA]">1st Place</span>
                   <span className="ml-auto text-sm font-medium text-white">
                     You
                   </span>
                 </div>
                 <div className="flex items-center gap-3 px-4 py-3 rounded-xl bg-white/[0.03] border border-white/[0.06]">
-                  <Users size={16} className="text-[#EC4899]" />
+                  <Users size={16} className="text-[#EA580C]" />
                   <span className="text-sm text-[#A1A1AA]">2nd Place</span>
                   <span className="ml-auto text-sm font-medium text-[#71717A]">
                     Alex
                   </span>
                 </div>
                 <div className="flex items-center gap-3 px-4 py-3 rounded-xl bg-white/[0.03] border border-white/[0.06]">
-                  <Shield size={16} className="text-[#8B5CF6]/60" />
+                  <Shield size={16} className="text-[#F59E0B]/60" />
                   <span className="text-sm text-[#A1A1AA]">Apps Blocked</span>
                   <span className="ml-auto text-sm font-medium text-white">
                     12
@@ -142,7 +142,7 @@ export function Hero() {
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
           >
             <div className="flex items-center gap-2">
-              <Smartphone size={14} className="text-[#8B5CF6]" />
+              <Smartphone size={14} className="text-[#F59E0B]" />
               <span className="text-xs text-[#A1A1AA]">Apps blocked</span>
             </div>
           </motion.div>
@@ -158,7 +158,7 @@ export function Hero() {
             }}
           >
             <div className="flex items-center gap-2">
-              <Trophy size={14} className="text-[#EC4899]" />
+              <Trophy size={14} className="text-[#EA580C]" />
               <span className="text-xs text-[#A1A1AA]">You&apos;re winning!</span>
             </div>
           </motion.div>

@@ -64,7 +64,7 @@ export function PrivacySection() {
               className="flex gap-4 p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]"
             >
               <div className="shrink-0 w-10 h-10 rounded-lg flex items-center justify-center bg-white/[0.05] border border-white/[0.08]">
-                <point.icon size={20} className="text-[#8B5CF6]" />
+                <point.icon size={20} className="text-[#F59E0B]" />
               </div>
               <div>
                 <h3 className="text-base font-semibold text-white mb-1">

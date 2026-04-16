@@ -10,7 +10,7 @@ const modes = [
     tagline: "The balanced session",
     description:
       "Block distracting apps for a set time with optional breaks. The default mode for everyday focus.",
-    accent: "#8B5CF6",
+    accent: "#F59E0B",
   },
   {
     icon: Brain,
@@ -18,7 +18,7 @@ const modes = [
     tagline: "Zero distractions",
     description:
       "No breaks, no exits. Pure uninterrupted focus for your most important work.",
-    accent: "#3B82F6",
+    accent: "#FBBF24",
   },
   {
     icon: Flame,
@@ -26,7 +26,7 @@ const modes = [
     tagline: "Build the habit",
     description:
       "Strict mode with accountability. Break your session and your group gets notified.",
-    accent: "#EF4444",
+    accent: "#D97706",
   },
   {
     icon: RotateCcw,
@@ -34,7 +34,7 @@ const modes = [
     tagline: "Start fresh",
     description:
       "A gentle re-entry. Short sessions to rebuild your relationship with your phone.",
-    accent: "#10B981",
+    accent: "#F59E0B",
   },
 ];
 

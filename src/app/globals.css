@@ -8,27 +8,28 @@
   --bg-card: rgba(255, 255, 255, 0.03);
 
   /* Text */
-  --text-primary: #FFFFFF;
+  --text-primary: #FAFAFA;
   --text-secondary: #A1A1AA;
   --text-muted: #71717A;
 
-  /* Accent — purple/pink, used sparingly */
-  --accent-purple: #8B5CF6;
-  --accent-pink: #EC4899;
-  --accent-gradient: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%);
+  /* Accent — warm amber/orange */
+  --accent: #F59E0B;
+  --accent-light: #FBBF24;
+  --accent-deep: #D97706;
+  --accent-gradient: linear-gradient(135deg, #F59E0B 0%, #EA580C 100%);
 
   /* Borders */
   --border-subtle: rgba(255, 255, 255, 0.06);
   --border-hover: rgba(255, 255, 255, 0.12);
 
   /* Glow */
-  --glow-purple: rgba(139, 92, 246, 0.15);
-  --glow-pink: rgba(236, 72, 153, 0.1);
+  --glow-primary: rgba(245, 158, 11, 0.12);
+  --glow-secondary: rgba(234, 88, 12, 0.06);
 
   /* Shadows */
   --shadow-card: 0 0 0 1px rgba(255, 255, 255, 0.05), 0 20px 40px -10px rgba(0, 0, 0, 0.5);
-  --shadow-glow: 0 0 80px 20px rgba(139, 92, 246, 0.12), 0 0 160px 40px rgba(236, 72, 153, 0.06);
-  --shadow-button: 0 4px 20px -4px rgba(139, 92, 246, 0.4);
+  --shadow-glow: 0 0 80px 20px rgba(245, 158, 11, 0.1), 0 0 160px 40px rgba(234, 88, 12, 0.05);
+  --shadow-button: 0 4px 20px -4px rgba(245, 158, 11, 0.35);
 }
 
 @theme inline {
@@ -68,6 +69,6 @@ body {
 
 /* Selection color */
 ::selection {
-  background: rgba(139, 92, 246, 0.3);
+  background: rgba(245, 158, 11, 0.3);
   color: white;
 }
